@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>GKO PROD SCORING</title>
     <link rel="stylesheet" href="stylesheet.css">
-
+    <script src="scoring.js"></script>
   </head>
   <body>
     <header>
@@ -20,36 +20,33 @@
       </div>
     </header>
     <section>
-      <!-- ICI je place ma section principale : le tableau de score-->
+
+      <!-- EDIT 5 OCT  autre test le tableau de score-->
       <div class="scoreboard">
-        <!-- La ligne 1 -->
-        <div class="row" id ="row1">
-          <!-- indiquer joueur 1 en haut -->
-					<input class="playername" id="name1" type="text" value="Joueur 1">
-            <!-- les sets-->
-            <!--Manche 1, 2 et 3 joueur 1-->
-          <input class="manche" id="manche1J1" type="text" value="0">
-          <input class="manche" id="manche2J1" type="text" value="0">
-          <input class="manche" id="manche3J1" type="text" value="0">
-          <!--score jeu joueur 1-->
-          <input class="score" id="scoreJ1" type="text" value="0">
-
+        <div class="ligne" id="ligne1">
+                <input class="name" id="name1" type="text" value="Joueur 1">
+                <div class="score1">
+                    <input class="set" id="set1p1" type="text" value="0">
+                    <input class="set" id="set2p1" type="text" value="0">
+                    <input class="set" id="set3p1" type="text" value="0">
+                    <input class="points" id="pointsp1" type="text" value="0">
+                  </div>
         </div>
-          <!--ici la ligne 2-->
-            <div class="row"id ="row2">
-              <!-- indiquer joueur 2 en haut -->
-                <input class="playername" id="name1" type="text" value="Joueur 2">
-              <!-- les sets-->
-            <!--Manche 1, 2 et 3 joueur 2-->
-                <input class="manche" id="manche1J2" type="text" value="0">
-                <input class="manche" id="manche2J2" type="text" value="0">
-                <input class="manche" id="manche3J2" type="text" value="0">
-                <!--score jeu joueur 2-->
-                <input class="score" id="scoreJ1" type="text" value="0">
 
-              </div>
-				</div>
-      </div>
+         <div class="ligne" id="ligne2">
+            <input class="name" id="name2" type="text" value="Joueur 2">
+            <div class="score2">
+              <input class="set" id="set1p2" type="text" value="0">
+              <input class="set" id="set2p2" type="text" value="0">
+              <input class="set" id="set3p2" type="text" value="0">
+              <input class="points" id="pointsp2" type="text" value="0">
+            </div>
+         </div>
+         <div>
+<!-- bouton de test  -->
+<div class="button" id="1">
+  <button onclick="incSet1P1()" style="background-color: aquamarine; margin-top: 15px">Set1P1</button>
+  </div>
     </section>
 
     </body>
