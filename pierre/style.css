@@ -1,0 +1,15 @@
+
+
+
+/* GESTION DU TRIANGLE */
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 50px 24px 0;
+    border-color: transparent #5f048a transparent transparent;
+  }
+  
+  .hidden-triangle{
+    visibility: hidden;
+  }
