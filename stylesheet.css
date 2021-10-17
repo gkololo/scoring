@@ -121,7 +121,6 @@ background-color: green;
   border-color: transparent #5f048a transparent transparent;
   margin-right: 5px;
 }
-
-#triangle2{
+.triangle_hidden{
   visibility: hidden;
 }

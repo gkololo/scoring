@@ -1,12 +1,19 @@
 
 var afficher = 0;
 var afficher_2 = 0;
+var identite = document.getElementById('triangle1');
+var identite2 = document.getElementById('triangle2');
 
 document.querySelector('#name1').addEventListener('click', (event) =>{
-   console.log(event.target.value);
+   console.log('Joueur1');
+   console.log(identite);
+   identite.classList.toggle('triangle_hidden');
+   identite2.classList.toggle('triangle_hidden');
 })
 document.querySelector('#name2').addEventListener('click', (event) =>{
-   console.log(event.target.value);
+   console.log('Joueur2');
+   identite.classList.toggle('triangle_hidden');
+   identite2.classList.toggle('triangle_hidden');
 })
 
 
