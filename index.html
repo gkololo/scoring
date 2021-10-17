@@ -36,16 +36,16 @@
          <div class="ligne" id="ligne2">
             <input class="name" id="name2" type="text" value="Joueur 2">
             <div class="score2">
-              <input class="set" id="set1p2" type="text" value="0">
-              <input class="set" id="set2p2" type="text" value="0">
-              <input class="set" id="set3p2" type="text" value="0">
-              <input class="points" id="pointsp2" type="text" value="0">
+              <input onclick="increment(event.target.value, 'set1p2')" class="set" id="set1p2" type="text" value="0">
+              <input onclick="increment(event.target.value, 'set2p2')" class="set" id="set2p2" type="text" value="0">
+              <input onclick="increment(event.target.value, 'set3p2')" class="set" id="set3p2" type="text" value="0">
+              <input onclick="increment(event.target.value, 'pointsp2')" class="points" id="pointsp2" type="text" value="0">
             </div>
          </div>
          <div>
 <!-- bouton de test  -->
 <div class="button" id="1">
-  <button onclick="incSet1P1()" style="background-color: aquamarine; margin-top: 15px">Set1P1</button>
+  <button onclick="resetPoints()" style="background-color: aquamarine; margin-top: 15px">RESET</button>
   </div>
     </section>
 

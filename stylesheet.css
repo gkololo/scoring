@@ -40,14 +40,11 @@ h1 {
   /* Ici style du scoreboard*/
 
 .scoreboard {
-  width: 70%;
+  width: 80%;
   text-align:center;
-  margin: 40px;
+  margin: 50px;
   background-color:rgb(240, 238, 238) ;
   border-left: 15px solid #5C0080;
-  /* height:250px;
-  font-size: 40px; */
-
 }
 
 
@@ -56,9 +53,11 @@ h1 {
   height: 49%;
 
 } */
+/* Comment adapter la hauteur de la ligne */
 #ligne1, #ligne2 {
   display: flex;
   border: 1px solid grey;
+
   }
 .name{
   display:flex;
@@ -70,7 +69,7 @@ h1 {
   font-size:40px;
   text-align:center;
 }
-.score1, .score2 {
+.score1, .score2 {git add 
   display:flex;
   width: 40%;
   /* margin: auto;
@@ -100,12 +99,6 @@ background-color: green;
 }
 #pointsp1, #pointsp2{
   color: rebeccapurple;
+  width: 30%;
 }
 
-/* .points{
-  flex:1;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  color:#5C0080;
-  border: 3px solid white;
-} */
