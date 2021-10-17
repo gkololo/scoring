@@ -78,12 +78,18 @@ function increment(value, cible) {
 
 
 
-
-
 function resetPoints (){
    afficher = 0;
    afficher_2 = 0;
    console.log(afficher, afficher_2);
    document.getElementById('pointsp2').value = afficher_2;
    document.getElementById('pointsp1').value = afficher;
+   document.getElementById('set1p1').value = 0;
+   document.getElementById('set2p1').value = 0;
+   document.getElementById('set3p1').value = 0;
+   document.getElementById('set1p2').value = 0;
+   document.getElementById('set2p2').value = 0;
+   document.getElementById('set3p2').value = 0;
+
+
 }
