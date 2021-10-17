@@ -57,8 +57,7 @@ h1 {
 #ligne1, #ligne2 {
   display: flex;
   border: 1px solid grey;
-
-  }
+ }
 .name{
   display:flex;
   width: 60%;
@@ -69,7 +68,7 @@ h1 {
   font-size:40px;
   text-align:center;
 }
-.score1, .score2 {git add 
+.score1, .score2 {
   display:flex;
   width: 40%;
   /* margin: auto;
@@ -102,3 +101,15 @@ background-color: green;
   width: 30%;
 }
 
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 25px 12px 0;
+  border-color: transparent #5f048a transparent transparent;
+  text-align: center;
+}
+
+.hidden-triangle{
+  visibility: hidden;
+}

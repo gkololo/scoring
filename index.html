@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>GKO PROD SCORING</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="scoring.js"></script>
+
   </head>
   <body>
     <header>
@@ -24,7 +24,11 @@
       <!-- EDIT 5 OCT  autre test le tableau de score-->
       <div class="scoreboard">
         <div class="ligne" id="ligne1">
+              <div>
                 <input class="name" id="name1" type="text" value="Joueur 1">
+                <div class="triangle"></div>
+              </div>
+
                 <div class="score1">
                     <input onclick="increment(event.target.value, 'set1p1')" class="set" id="set1p1" type="text" value="0">
                     <input onclick="increment(event.target.value, 'set2p1')" class="set" id="set2p1" type="text" value="0">
@@ -35,6 +39,7 @@
 
          <div class="ligne" id="ligne2">
             <input class="name" id="name2" type="text" value="Joueur 2">
+            <div class="triangle"></div>
             <div class="score2">
               <input onclick="increment(event.target.value, 'set1p2')" class="set" id="set1p2" type="text" value="0">
               <input onclick="increment(event.target.value, 'set2p2')" class="set" id="set2p2" type="text" value="0">
@@ -44,9 +49,10 @@
          </div>
          <div>
 <!-- bouton de test  -->
-<div class="button" id="1">
-  <button onclick="resetPoints()" style="background-color: aquamarine; margin-top: 15px">RESET</button>
-  </div>
-    </section>
 
+    </section>
+    <div class="button" id="1">
+      <button onclick="resetPoints()" style="background-color: aquamarine; margin-top: 15px">RESET</button>
+      </div>
+      <script src="scoring.js"></script>
     </body>
