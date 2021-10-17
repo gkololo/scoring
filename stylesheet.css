@@ -58,6 +58,7 @@ h1 {
   display: flex;
   border: 1px  solid grey;
   background-color: white;
+  align-items: center;
  }
  .joueur_1{
    display: flex;
@@ -118,7 +119,7 @@ background-color: green;
   border-style: solid;
   border-width: 12px 25px 12px 0;
   border-color: transparent #5f048a transparent transparent;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hidden-triangle{
