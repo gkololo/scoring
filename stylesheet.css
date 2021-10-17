@@ -40,7 +40,7 @@ h1 {
   /* Ici style du scoreboard*/
 
 .scoreboard {
-  width: 80%;
+  width: 70%;
   text-align:center;
   margin: 50px;
   background-color:rgb(240, 238, 238) ;
@@ -53,21 +53,31 @@ h1 {
   height: 49%;
 
 } */
-/* Comment adapter la hauteur de la ligne */
+
 #ligne1, #ligne2 {
   display: flex;
-  border: 1px solid grey;
+  border: 1px  solid grey;
+  background-color: white;
+ }
+ .joueur_1{
+   display: flex;
+
  }
 .name{
   display:flex;
-  width: 60%;
+  width: 90%;
   /* margin: auto; */
   padding: auto;
   color: purple;
   font-weight: 800;
   font-size:40px;
   text-align:center;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
 }
+
 .score1, .score2 {
   display:flex;
   width: 40%;
@@ -84,7 +94,7 @@ h1 {
   color: whitesmoke;
   font-weight: 800;
   text-align: center;
-  font-size:60px;
+  font-size:50px;
 
 }
 /*réglage background sets */
@@ -99,6 +109,7 @@ background-color: green;
 #pointsp1, #pointsp2{
   color: rebeccapurple;
   width: 30%;
+  font-size:40px;
 }
 
 .triangle{
