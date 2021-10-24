@@ -95,5 +95,22 @@ function resetPoints (){
 function changeType(){
    document.getElementById("pointsp1").type ="button";
    document.getElementById("pointsp2").type ="button";
+   document.getElementById("set1p1").type ="button";
+   document.getElementById("set2p1").type ="button";
+   document.getElementById("set3p1").type ="button";
+   document.getElementById("set1p2").type ="button";
+   document.getElementById("set2p2").type ="button";
+   document.getElementById("set3p2").type ="button";
+
+}
+function changeTypeToText(){
+   document.getElementById("pointsp1").type ="text";
+   document.getElementById("pointsp2").type ="text";
+   document.getElementById("set1p1").type ="text";
+   document.getElementById("set2p1").type ="text";
+   document.getElementById("set3p1").type ="text";
+   document.getElementById("set1p2").type ="text";
+   document.getElementById("set2p2").type ="text";
+   document.getElementById("set3p2").type ="text";
 
 }
