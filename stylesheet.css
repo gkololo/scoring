@@ -124,3 +124,15 @@ background-color: green;
 .triangle_hidden{
   visibility: hidden;
 }
+#editValues{
+  cursor: pointer;
+  /* position: absolute; */
+  bottom: 15px;
+  right: 30px;
+  background: #85a9c9;
+  border-radius: 34px;
+  height: 35px;
+  padding: 10px;
+  width: 35px;
+  text-align: center;
+}
