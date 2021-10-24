@@ -101,7 +101,6 @@ function changeType(){
    document.getElementById("set1p2").type ="button";
    document.getElementById("set2p2").type ="button";
    document.getElementById("set3p2").type ="button";
-
 }
 function changeTypeToText(){
    document.getElementById("pointsp1").type ="text";
@@ -112,5 +111,4 @@ function changeTypeToText(){
    document.getElementById("set1p2").type ="text";
    document.getElementById("set2p2").type ="text";
    document.getElementById("set3p2").type ="text";
-
 }
