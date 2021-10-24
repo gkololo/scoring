@@ -91,11 +91,11 @@ h1 {
 #set1p1, #set2p1, #set3p1, #pointsp1, #set1p2, #set2p2, #set3p2, #pointsp2{
   border: 1px solid grey;
   width:20%;
-  padding: 8px;
+  padding: 0.5rem;
   color: whitesmoke;
   font-weight: 800;
   text-align: center;
-  font-size:50px;
+  font-size:2.5rem;
 
 }
 /*réglage background sets */
@@ -135,13 +135,12 @@ background-color: green;
   padding: 20px;
   color: aliceblue;
   position: absolute;
-  top: 300px;
-  left: 30px;
+    left: 2rem;
 }
 #editValues, #editValues2{
   cursor: pointer;
 	position: absolute;
-  left: 250px;
+  /* left: 250px; */
 	padding: 1.5rem 1.5rem;
 	border-radius: 2.75rem;
 	line-height: 2.5rem;
@@ -159,11 +158,12 @@ background-color: green;
 }
 #editValues{
   background: dodgerblue;
+  left: 16rem;
 }
 #editValues2{
   background: rgb(185, 37, 148);
   position: absolute;
-  left: 450px;
+  left: 32rem;
 }
 #editValues2:hover{
   background: rgb(242, 7, 183);
@@ -175,10 +175,14 @@ background-color: green;
     box-shadow: 3px 3px 12px #333 inset;
     transform: translateY(.125em);
    }
- /* #editValues:active{
-    background: rgb(1, 20, 55);
+ #editValues:focus{
+    background: rgb(37, 5, 150);
     box-shadow: 3px 3px 2px #333 inset;
-     } */
+     }
+     #editValues2:focus{
+      background: rgb(123, 4, 107);
+      box-shadow: 3px 3px 2px #333 inset;
+       }
 
 /* barre des boutons */
 .barre{
