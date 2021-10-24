@@ -77,7 +77,6 @@ function increment(value, cible) {
 
 
 
-
 function resetPoints (){
    afficher = 0;
    afficher_2 = 0;
@@ -91,5 +90,10 @@ function resetPoints (){
    document.getElementById('set2p2').value = 0;
    document.getElementById('set3p2').value = 0;
 
+
+}
+function changeType(){
+   document.getElementById("pointsp1").type ="button";
+   document.getElementById("pointsp2").type ="button";
 
 }
